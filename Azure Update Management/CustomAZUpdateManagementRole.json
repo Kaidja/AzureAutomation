@@ -1,0 +1,20 @@
+{ 
+    "Name": "Automation account Contributor (custom)",
+    "Id": "",
+    "IsCustom": true,
+    "Description": "Allows access to manage Azure Automation and its resources",
+    "Actions": [
+        "Microsoft.Authorization/*/read",
+        "Microsoft.Insights/alertRules/*",
+        "Microsoft.Insights/metrics/read",
+        "Microsoft.Insights/diagnosticSettings/*",
+        "Microsoft.Resources/deployments/*",
+        "Microsoft.Resources/subscriptions/resourceGroups/read",
+        "Microsoft.Automation/automationAccounts/*",
+        "Microsoft.Support/*"
+    ],
+    "NotActions": [],
+    "AssignableScopes": [
+        "/subscriptions/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX"
+    ] 
+}
